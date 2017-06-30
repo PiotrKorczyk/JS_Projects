@@ -1,0 +1,30 @@
+<html>
+<head>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+	<h1>Click</h1>
+	<button id="b1">Cl_lick</button>
+	<div id="box" class="box"></div>
+</body>
+
+<style>
+	.box{
+		width: 100%;
+		z-index: 10;
+	}
+
+</style>
+
+<script type="text/javascript">
+	$(document).ready( () =>{
+		$("#b1").click(() =>{
+			$("#box").load("https://raw.githubusercontent.com/PiotrKorczyk/JS_Projects/master/01_Drum%20Kit/index.html");
+			console.log("loaded");
+		})
+	})
+</script>
+
+</html>

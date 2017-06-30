@@ -13,7 +13,7 @@ var keys={
 	"h" : ["ride.wav","b5"],
 	"j" : ["snare.wav","b6"],
 	"k" : ["tom.wav","b7"],
-	"l" : ["tink.wav","b8"],	
+	"l" : ["tink.wav","b8"],
 }
 
 window.addEventListener("keypress", function makeSound(_key ){
@@ -24,4 +24,3 @@ window.addEventListener("keypress", function makeSound(_key ){
 		pressEffect(keys[_key.key][1]);
 	}
 } );
-
