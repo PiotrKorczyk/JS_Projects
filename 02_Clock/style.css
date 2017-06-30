@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #A0EADE;
+	
+}
+
+
+.circle{
+	position: absolute;
+	top:30%;
+	left: 40%;
+	height: 300px;
+	width: 300px;
+	border: 5px solid #1D263B;
+	border-radius: 50%;
+	background: #6e7a9b;
+}
+
+.hours-pointer{
+	height: 5px;
+	width: 75px;
+	position: absolute;
+	background: #1D263B;
+	top:49.1%;
+	left:50%;
+	transform-origin: 0px 50%;
+	border-radius: 0% 25% 25% 0;	
+}
+
+.minutes-pointer{
+	height: 5px;
+	width: 105px;
+	position:absolute;
+	background: #1D263B;
+	top:49.1%;
+	left:50%;
+	transform-origin: 0px 50%;
+	border-radius: 0% 25% 25% 0;	
+
+}
+
+.seconds-pointer{
+	height: 5px;
+	width: 130px;
+	position: absolute;
+	background: #1D263B;
+	top:49.1%;
+	left:50%;
+	transform-origin: 0px 50%;
+	border-radius: 0% 25% 25% 0;
+}
+
+
+.little-circle{
+	position: absolute;
+	top:  135px;
+	left: 135px;
+	height: 20px;
+	width:20px;
+	background:  #1D263B;
+	border-radius: 50%;
+}
